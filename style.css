@@ -177,6 +177,16 @@ hr {
     color: var(--red);
 }
 
+.content .member .member_card a {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--main-bg);
+}
+
+.content .member .member_card p {
+    color: var(--main-bg);
+}
+
 .content .member #fajar {
     text-align: left;
     margin-left: 100px;
