@@ -14,4 +14,11 @@ $(document).ready( () => {
             scrollTop: $(this.hash).offset().top
         }, 1000);
     });
+
+    let typing = new Typed('.greet', {
+        strings: ['Hello', 'Bonjour', 'Selamat Datang', 'Ni Hao', 'Konnichiwa', 'Guten Morgen'],
+        typeSpeed: 90,
+        backSpeed: 50,
+        loop: true
+    });
 });
